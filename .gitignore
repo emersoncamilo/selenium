@@ -1,10 +1,55 @@
 ### IntelliJ IDEA ###
-**/.idea/
-**/.mvn/
-**/target/
-**/mvnw.cmd
-**/mvnw
+**/.idea/                  # Configurações da IDE
+**/*.iml                   # Arquivos do projeto do IntelliJ
 
-### VS Code ###
-**/.vscode/
-**/.venv/
+### Maven ###
+**/target/                 # Diretório de build do Maven
+**/.mvn/                   # Diretório com arquivos de configuração do Maven
+**/mvnw                    # Wrapper do Maven
+**/mvnw.cmd
+
+### Eclipse ###
+**/.settings/              # Configurações do Eclipse
+**/.classpath              # Configuração de classes
+**/.project                # Arquivo do projeto
+**/.factorypath
+
+### STS (Spring Tool Suite) ###
+**/.apt_generated          # Diretório gerado pela Spring Tool Suite
+**/.springBeans            # Configuração do Spring Beans
+**/.sts4-cache             # Cache do Spring Tool Suite
+
+### Logs ###
+**/logs/                   # Pasta de logs
+*.log                      # Arquivos de log
+
+### Arquivos temporários ###
+**/*.swp                   # Arquivos temporários de editores de texto
+**/*.tmp                   # Arquivos temporários
+
+### Sistema Operacional ###
+.DS_Store                  # macOS
+Thumbs.db                  # Windows
+
+### Testes ###
+**/test-output/            # Saída de testes
+**/surefire-reports/       # Relatórios do Surefire para testes unitários
+**/jacoco.exec             # Arquivo de cobertura de testes
+**/coverage/               # Relatório de cobertura de testes
+**/*.class                 # Arquivos compilados
+**/*.ser                   # Arquivos de serialização gerados por testes
+
+### IDEs genéricas ###
+**/.vscode/                # Configurações do Visual Studio Code
+**/.project                # Arquivo de configuração do projeto para outras IDEs
+**/.idea/
+**/*.iws
+**/*.iml
+**/*.ipr
+**/out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Outros ###
+**/out/                    # Diretório `out` usado por algumas IDEs para compilar
+**/database/               # Se há um diretório de banco de dados local
