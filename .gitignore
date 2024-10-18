@@ -53,3 +53,4 @@ Thumbs.db                  # Windows
 ### Outros ###
 **/out/                    # Diretório `out` usado por algumas IDEs para compilar
 **/database/               # Se há um diretório de banco de dados local
+**target/

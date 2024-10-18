@@ -8,6 +8,10 @@ Este repositório contém um projeto de automação de testes utilizando **Selen
 
 O projeto já possui uma aplicação pronta e configurada para darmos andamento aos testes automatizados. A automação foi implementada utilizando a biblioteca Selenium, garantindo uma cobertura eficiente de funcionalidades web.
 
+
+----
+login da aplicacao: http://localhost:8080/login
+
 ---
 
 ## 🚀 Como Executar
